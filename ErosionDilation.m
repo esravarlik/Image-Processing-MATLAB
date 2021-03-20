@@ -6,7 +6,6 @@ img = im2bw(img);
 [m, n] = size(img);
 v = logical([0 1 0; 1 1 1; 0 1 0]);
 %v = logical([1 1 1;1 1 1;1 1 1]);
-x =[1 1 1; 1 1 1;1 1 1];
 
 for row=2:(n-1)
     for column=2:(m-1)
